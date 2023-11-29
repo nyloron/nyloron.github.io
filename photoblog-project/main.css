@@ -1,0 +1,149 @@
+main{
+    float: left;
+    width: 100%;
+    background: rgba(37, 37, 37);
+}
+
+/*  Project Content  */
+
+.project{
+    margin: auto;
+    margin-top: 50px;
+    width: fit-content;
+    overflow: hidden;
+}
+
+.project > h1{
+    text-align: center;
+    display: block;
+    padding: 16px 16px;
+    color: rgb(211, 148, 11);
+    margin-bottom: 50px;
+    font-family: monospace;
+    font-size: 35px;
+}
+
+.project > p{
+    text-align: center;
+    color: #f2f2f2;
+    width: 75%;
+    margin: auto;
+    margin-bottom: 30px;
+    font-family: monospace;
+}
+
+#project-download{
+    display: block;
+    margin: auto;
+    border-radius: 20px;
+    padding: 10px 30px;
+    width: fit-content;
+    margin-bottom: 30px;
+
+    color: black;
+    font-family: monospace;
+    background: rgba(9, 163, 190, 0.6);
+    text-decoration: none;
+    transition: 300ms;
+    font-size: 20px;
+}
+#project-download:hover{
+    background: rgb(9, 163, 190);
+}
+
+#spacer{
+    width: 75%;
+    height: 2px;
+    background: #f2f2f2;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.content{
+    background: rgb(211, 148, 11);
+    width: fit-content;
+}
+
+/*  Presentation  */
+
+.presentation{
+    background: rgb(214, 82, 82);
+    width: calc(100% - 40px);
+    display: flex;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+#resize{
+    width: 630px;
+    height: 380px;
+    max-width: 1000px;
+    max-height: 600px;
+    min-width: 336px;
+    min-height: 213px;
+    resize: both;
+    overflow: auto;
+    display: flex;
+}
+#resize > *{
+    flex: 1;
+    width: inherit;
+    height: inherit;
+    max-width: inherit;
+    max-height: inherit;
+    min-width: inherit;
+    min-height: inherit;
+    resize: inherit;
+}
+
+#presentation-img{
+    display: none;
+}
+
+#presentation-text{
+    flex: 1;
+    box-sizing: border-box;
+    margin: auto;
+}
+#presentation-text > p{
+    font-family: monospace;
+}
+
+/*  Website  */
+
+.blog{
+    background: rgb(90, 47, 47);
+    margin: 20px;
+    font-family: monospace;
+}
+.blog > img{
+    width: 100%;
+    pointer-events: none;
+}
+
+
+@media only screen and (max-width: 992px){
+    .project{
+        margin-top: 15px;
+    }
+    .project > h1{
+        font-size: 150%;
+    }
+    .project > p{
+        font-size: 14px;
+    }
+
+    /*  Presentation  */
+    .presentation{
+        display: block;
+    }
+
+    #resize{
+        display: none;
+    }
+    
+    #presentation-img{
+        display: block;
+        width: 100%;
+    }
+}
