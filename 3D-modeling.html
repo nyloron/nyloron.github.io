@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Nils Rauschmayr">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/png" href="multiuse_media/Eichhornschen_transparent.png">
+        <title>nyloron</title>
+    </head>
+    <body>
+        <link rel="stylesheet" href="3D-modeling/body.css">
+        <header>
+            <link rel="stylesheet" href="general_files/header.css">
+            <script src="general_files/header.js"></script>
+            <div class="container">
+                <div class="wrapper" id="wrapper">
+                    <img class="slideimg" src="multiuse_media/slideshow_header/IMG_0491.jpg" style="width: 100%; object-position: 0 -250px;"><!--
+                    --><img class="slideimg" src="multiuse_media/slideshow_header/20220731_205612.jpg" style="width: 100%; object-position: 0 -100px;"><!--
+                    --><img class="slideimg" src="multiuse_media/slideshow_header/P1170557.JPG" style="width: 100%; object-position: 0 -500px;"><!--
+                    --><img class="slideimg" src="multiuse_media/slideshow_header/IMG_5624.JPG" style="width: 100%; object-position: 0 -330px"><!--
+                    --><img class="slideimg" src="multiuse_media/slideshow_header/IMG_5885.JPG" style="width: 100%; object-position: 0 -300px;">
+                </div>
+                <button id="prevButton" class="navigation-button" onclick="showPreviousSlide()">&#10094</button>
+                <button id="nextButton" class="navigation-button" onclick="showNextSlide()">&#10095</button>
+            </div>
+            <nav id="topnav">
+                <a href="index.html">home</a><!--
+                --><a href="photoblog-project.html#topnav">photoblog-project</a><!--
+                --><a href="perses-logo.html#topnav">perses-logo</a><!--
+                --><a onclick="window.location.reload()" style="cursor: pointer;" class="active">3D-modeling</a><!--
+                --><a href="https://github.com/nyloron/nyloron.github.io" target="_blank">this page's github</a><!--
+                --><a href="https://www.instagram.com/nyloron/" target="_blank" style="padding: 14px;"><img src="multiuse_media/icons/insta_logo.png"></a><!--
+                --><a href="mailto:rauschmayrnils+web@gmail.com">Kontakt</a>
+            </nav>
+        </header>
+        <main>
+            <link rel="stylesheet" href="3D-modeling/main.css">
+            <div class="content">
+                <div class="info">
+                    <h1 id="title">3D-modeling</h1>
+                    <p id="project-text">
+                        These listed 3D models stem from my personal interest in 3D modeling. Some were crafted through tutorial guidance, while others were independently created, applying skills acquired from those tutorials.
+                    </p>
+                </div>
+                <div id="spacer"></div>
+                <div class="models">
+                    <div class="noa">
+                        <div class="noa-rig"><!--
+                        --><img src="3D-modeling/media/Noa_T-Pose.png" alt="Noa_T-Pose" id="noa_t-pose">
+                            <div class="noa-secondary">
+                                <img src="3D-modeling/media/Noa_Jump.png" alt="Noa_Jump" id="noa_jump"><!--
+                                --><video id="noa_idle" autoplay loop>
+                                        <source src="3D-modeling/media/Noa_Idle.mp4" type="video/mp4">
+                                    </video><!--
+                                --><video id="noa_walking" autoplay loop>
+                                        <source src="3D-modeling/media/Noa_Walking.mp4" type="video/mp4">
+                                    </video>
+                            </div>
+                        </div>
+                        <a id="rig-download" href="https://github.com/nyloron/nyloron.github.io/raw/main/3D-modeling/media/Noa-Rig.blend" target="_blank">rig download</a>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <link rel="stylesheet" href="general_files/footer.css">
+            <script src="general_files/footer.js"></script>
+            <div id="topButton">
+                <a href="#">
+                    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"/>
+                    <span class="material-symbols-outlined">
+                        arrow_upward
+                    </span>
+                    <p>back to top</p>
+                </a>
+            </div>
+            <div id="mobileButton">
+                <a href="#">
+                    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"/>
+                    <span class="material-symbols-outlined">
+                        arrow_upward
+                    </span>
+                </a>
+            </div>
+        </footer>
+    </body>
+</html>

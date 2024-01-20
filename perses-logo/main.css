@@ -1,0 +1,97 @@
+main{
+    float: left;
+    width: 100%;
+}
+
+.content{
+    margin: auto;
+    margin-top: 60px;
+    width: 75%;
+    height: fit-content;
+    overflow: hidden;
+}
+
+.info{
+    width: fit-content;
+    margin: auto;
+}
+
+#title{
+    text-align: center;
+    display: block;
+    padding: 16px 16px;
+    color: rgb(211, 148, 11);
+    margin-bottom: 50px;
+    font-family: monospace;
+    font-size: 35px;
+}
+
+#project-text{
+    text-align: center;
+    color: #f2f2f2;
+    width: 75%;
+    margin: auto;
+    margin-bottom: 40px;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+#spacer{
+    width: 75%;
+    height: 2px;
+    background: #f2f2f2;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.imgs{
+    width: fit-content;
+    margin: auto;
+}
+
+#logo1{
+    aspect-ratio: 16/9;
+    width: 570px;
+    height: 320px;
+    overflow: hidden;
+    margin-top: 35px;
+}
+#logo1 > img{
+    width: 100%;
+    object-fit: cover;
+    object-position: 0 -60px;
+}
+
+#logo2{
+    width: 570px;
+    height: 620px;
+    overflow: hidden;
+    margin-top: 35px;
+}
+#logo2 > img{
+    width: 900px;
+    object-fit: cover;
+    object-position: 0 -10px;
+}
+
+@media only screen and (max-width: 992px){
+    .content{
+        width: 95%;
+    }
+
+    #logo1{
+        width: 285px;
+        height: 160px;
+    }
+    #logo1 > img{
+        object-position: 0 -30px;
+    }
+
+    #logo2{
+        width: 285px;
+        height: 310px;
+    }
+    #logo2 > img{
+        width: 450px;
+    }
+}

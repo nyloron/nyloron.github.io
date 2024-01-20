@@ -1,0 +1,355 @@
+main{
+    float: left;
+    width: 100%;
+}
+
+.content{
+    margin: auto;
+    margin-top: 60px;
+    width: 75%;
+    height: fit-content;
+    overflow: hidden;
+}
+
+.projects{
+    padding: 5px;
+    width: fit-content;
+    margin: auto;
+    overflow: hidden;
+}
+.projects > *{
+    float: left;
+    margin: 2px;
+}
+
+.other{
+    padding: 5px;
+    width: fit-content;
+    margin: auto;
+    margin-top: 50px;
+    overflow: hidden;
+}
+
+/*  List of Projects  */
+
+/*  photoblog-project  */
+#photoblog-project{
+    width: max-content;
+    box-sizing: border-box;
+    text-decoration: none;
+    position: relative;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#photoblog-project > *{
+    display: block;
+}
+#p1{
+    aspect-ratio: 4/3;
+    width: 270px;
+    height: auto;
+    overflow: hidden;
+    border-radius: 20px;
+
+    transition: 300ms;
+}
+#p1-1{
+    width: 100%;
+    height: auto;
+    filter: grayscale(100%);
+
+    transition: 300ms;
+}
+#p2 {
+    font-family: monospace;
+    color: rgb(211, 148, 11);
+    font-size: 20px;
+    padding: 8px;
+    margin: auto;
+    white-space: nowrap;
+    transition: 300ms;
+}
+#photoblog-project:hover{
+    #p1{
+        border-radius: 15px;
+    }
+    #p1-1{
+        filter: none;
+    }
+    #p2{
+        color: #f2f2f2;
+    }
+}
+
+/*  perses-logo  */
+#perses-logo{
+    width: max-content;
+    box-sizing: border-box;
+    text-decoration: none;
+    position: relative;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#perses-logo > *{
+    display: block;
+}
+#pl1{
+    aspect-ratio: 4/3;
+    width: 270px;
+    height: auto;
+    overflow: hidden;
+    border-radius: 20px;
+
+    transition: 300ms;
+}
+#pl1-1{
+    width: 100%;
+    height: auto;
+    filter: grayscale(100%);
+
+    transition: 300ms;
+}
+#pl2 {
+    font-family: monospace;
+    color: rgb(211, 148, 11);
+    font-size: 20px;
+    padding: 8px;
+    margin: auto;
+    white-space: nowrap;
+    transition: 300ms;
+}
+#perses-logo:hover{
+    #pl1{
+        border-radius: 15px;
+    }
+    #pl1-1{
+        filter: none;
+    }
+    #pl2{
+        color: #f2f2f2;
+    }
+}
+
+/*  3D-modeling  */
+#modeling{
+    width: max-content;
+    box-sizing: border-box;
+    text-decoration: none;
+    position: relative;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#modeling > *{
+    display: block;
+}
+#md1{
+    aspect-ratio: 4/3;
+    width: 270px;
+    height: auto;
+    overflow: hidden;
+    border-radius: 20px;
+
+    transition: 300ms;
+}
+#md1-1{
+    width: 100%;
+    height: auto;
+    filter: grayscale(100%);
+    object-position: 0 -35px;
+
+    transition: 300ms;
+}
+#md2{
+    font-family: monospace;
+    color: rgb(211, 148, 11);
+    font-size: 20px;
+    padding: 8px;
+    margin: auto;
+    white-space: nowrap;
+    transition: 300ms;
+}
+#modeling:hover{
+    #md1{
+        border-radius: 15px;
+    }
+    #md1-1{
+        filter: none;
+    }
+    #md2{
+        color: #f2f2f2;
+    }
+}
+
+/*  this page  */
+#this_page{
+    width: max-content;
+    box-sizing: border-box;
+    text-decoration: none;
+    position: relative;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+#this_page > *{
+    display: block;
+}
+#t1{
+    aspect-ratio: 4/3;
+    width: 270px;
+    height: auto;
+    overflow: hidden;
+    border-radius: 20px;
+
+    transition: 300ms;
+}
+#t1-1{
+    width: 160%;
+    height: auto;
+    filter: grayscale(100%);
+
+    object-fit: cover;
+    object-position: -50px 0;
+
+    transition: 300ms;
+}
+#t2 {
+    font-family: monospace;
+    color: rgb(211, 148, 11);
+    font-size: 20px;
+    padding: 8px;
+    margin: auto;
+    white-space: nowrap;
+    transition: 300ms;
+}
+#this_page:hover{
+    #t1{
+        border-radius: 15px;
+    }
+    #t1-1{
+        filter: none;
+    }
+    #t2{
+        color: #f2f2f2;
+    }
+}
+
+/*  Other  */
+
+/*  Instagram  */
+#instagram{
+    width: max-content;
+    box-sizing: border-box;
+    text-decoration: none;
+    position: relative;
+    display: flex;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+#instagram > *{
+    flex: 1;
+    display: block;
+
+}
+#i1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 70px;
+    overflow: hidden;
+
+    transition: 300ms;
+}
+#i1-1{
+    display: block;
+    width: 90%;
+    height: 90%;
+    margin: auto;
+
+    transition: 300ms;
+}
+#i2{
+    font-family: monospace;
+    color: #f2f2f2;
+    font-size: 20px;
+    padding: 8px;
+    margin: auto;
+    white-space: nowrap;
+    transition: 300ms;
+}
+#instagram:hover{
+    #i1-1{
+        width: 100%;
+        height: 100%;
+    }
+    #i2{
+        color: #ffffff;
+    }
+}
+
+@media only screen and (max-width:992px){
+    .content{
+        width: 95%;
+        margin: auto;
+        margin-top: 40px;
+    }
+
+    .projects{
+        width: fit-content;
+    }
+    
+    /*  photoblog-project  */
+    #photoblog-project{
+        width: 100%;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    #p1{
+        width: 100%;
+    }
+    #p1-1{
+        filter: grayscale(40%);
+    }
+
+    /*  perses-logo  */
+    #perses-logo{
+        width: 100%;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    #pl1{
+        width: 100%;
+    }
+    #pl1-1{
+        filter: grayscale(40%);
+    }
+
+    /*  this_page  */
+    #this_page{
+        width: 100%;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    #t1{
+        width: 100%;
+    }
+    #t1-1{
+        filter: grayscale(40%);
+    }
+    
+    /*  Instagram  */
+    #i1{
+        width: 70px;
+        height: 70px;
+    }
+    #i2{
+        display: none;
+    }
+}
