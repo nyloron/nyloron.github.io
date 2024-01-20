@@ -1,0 +1,65 @@
+main{
+    float: left;
+    width: 100%;
+}
+
+.content{
+    margin: auto;
+    margin-top: 60px;
+    width: 75%;
+    height: fit-content;
+    overflow: hidden;
+}
+
+.info{
+    width: fit-content;
+    margin: auto;
+}
+
+#title{
+    text-align: center;
+    display: block;
+    padding: 16px 16px;
+    color: rgb(211, 148, 11);
+    margin-bottom: 50px;
+    font-family: monospace;
+    font-size: 35px;
+}
+
+#project-text{
+    text-align: center;
+    color: #f2f2f2;
+    width: 75%;
+    margin: auto;
+    margin-bottom: 40px;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+#spacer{
+    width: 75%;
+    height: 2px;
+    background: #f2f2f2;
+    margin: auto;
+    border-radius: 20px;
+}
+
+#rig-download{
+    display: block;
+    margin: auto;
+    border-radius: 20px;
+    padding: 10px 30px;
+    width: fit-content;
+    margin-bottom:30px;
+    margin-top: 30px;
+
+    color: black;
+    font-family: monospace;
+    background: rgba(9, 163, 190, 0.6);
+    text-decoration: none;
+    transition: 300ms;
+    font-size: 25px;
+}
+#rig-download:hover{
+    background: rgb(9, 163, 190);
+}
