@@ -44,6 +44,164 @@ main{
     border-radius: 20px;
 }
 
+.models{
+    width: fit-content;
+    margin: auto;
+    margin-top: 30px;
+}
+
+/* noa-rig */
+.noa{
+    width: fit-content;
+    height: fit-content;
+}
+
+.noa-rig{
+    display: flex;
+    box-sizing: border-box;
+    margin: auto;
+    padding-left: 30px;
+    padding-right: 15px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: rgba(37, 37, 37);
+    border-radius: 30px;
+}
+#noa_t-pose{
+    border-radius: 20px;
+    height: 770px;
+    width: auto;
+}
+
+.noa-secondary{
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+#noa_jump{
+    border-radius: 30px;
+    height: 250px;
+    width: auto;
+    padding: 15px;
+}
+#noa_idle{
+    border-radius: 30px;
+    height: 250px;
+    width: auto;
+    padding: 15px;
+}
+#noa_walking{
+    border-radius: 30px;
+    height: 250px;
+    width: auto;
+    padding: 15px;
+}
+
+#rig-download{
+    display: block;
+    margin: auto;
+    border-radius: 20px;
+    padding: 10px 30px;
+    width: fit-content;
+    margin-top:30px;
+
+    color: black;
+    font-family: monospace;
+    background: rgba(9, 163, 190, 0.6);
+    text-decoration: none;
+    transition: 300ms;
+    font-size: 25px;
+}
+#rig-download:hover{
+    background: rgb(9, 163, 190);
+}
+
+@media only screen and (max-width: 992px){
+    .content{
+        width: calc(100% - 10px);
+    }
+
+    /* noa-rig */
+    .noa-rig{
+        display: block;
+        padding: 10px 10px;
+    }
+    .noa-secondary{
+        margin-top: 10px;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    #noa_t-pose{
+        width: 100%;
+        height: auto;
+        display: block;
+        margin: auto;
+    }
+    #noa_jump{
+        border-radius: 20px;
+        width: 33%;
+        height: auto;
+        padding: 1%;
+    }
+    #noa_idle{
+        border-radius: 20px;
+        width: 33%;
+        height: auto;
+        padding: 1%;
+    }
+    #noa_walking{
+        border-radius: 20px;
+        width: 33%;
+        height: auto;
+        padding: 1%;
+    }
+}main{
+    float: left;
+    width: 100%;
+}
+
+.content{
+    margin: auto;
+    margin-top: 60px;
+    width: 75%;
+    height: fit-content;
+    overflow: hidden;
+}
+
+.info{
+    width: fit-content;
+    margin: auto;
+}
+
+#title{
+    text-align: center;
+    display: block;
+    padding: 16px 16px;
+    color: rgb(211, 148, 11);
+    margin-bottom: 50px;
+    font-family: monospace;
+    font-size: 35px;
+}
+
+#project-text{
+    text-align: center;
+    color: #f2f2f2;
+    width: 75%;
+    margin: auto;
+    margin-bottom: 40px;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+#spacer{
+    width: 75%;
+    height: 2px;
+    background: #f2f2f2;
+    margin: auto;
+    border-radius: 20px;
+}
+
 #rig-download{
     display: block;
     margin: auto;
